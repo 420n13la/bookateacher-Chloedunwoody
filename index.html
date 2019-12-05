@@ -21,14 +21,15 @@
 
 </head>
 <body>
+	<main>
 
-  <div class="jumbotron">
+  <div class="jumbotron text-center">
   <h1 class="text-white" >Book a Teacher</h1>
   <p>User Experience Web Interface Design</p> 
   </div>
   
   <nav>
-  <ul class="nav">
+  <ul class="nav nav-tabs mb-5">
     <li class="nav-item">
       <a href="index.html" class="nav-link active">Teachers</a>
     </li>
@@ -42,43 +43,59 @@
 
   </nav>
 
-  <main>  
     <div class="container">
       <div class="row">
-        <div class="col-md-12 col-md-6">
+        <div class="col-md-12 col-sm-6">
     <h6 class="text-primary">UXWID Teachers</h6>
 <p class="text-secondary">Jennifer, Reza and Alicia are the three teachers of the course User Experience and Web Interface design. They decided to join forces and share their insight with all students. They are available at different times in the day and evening to offer students more options to meet a teacher.</p>
         </div>
+        <div class="col-sm-6">
+        	<img class="img-fluid d-none d-sm-block d-md-none" src="images/rja.png" alt="Teachers">
+        </div>
     </div>
+    <div class="row">
+    	<div class="col d-block d-sm-none text-center">
+    		<img class="img-fluid mx-auto d-block" src="images/arj.png" alt="Teachers">
+    	</div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-    <h3 class"">Jennifer</h3>
-    <img class="img rounded-circle" src="images/jennifer.png" alt="teacher1" type="img">
-<p>With more than twenty years experience in the field, Jennifer is your best source to understand web design foundations and principles using HTML5 and CSS3.
-  Jennifer's interests include books and biking.</p>
+    <div class="row">
+    	<div class="col-sm-4 text-left">
+    <h3 class="pt-4 text-center">Jennifer</h3>
+    <img class="pb-4 rounded-circle img-fluid d-none d-md-block" src="images/jennifer.png" alt="teacher1" type="img">
+
+<p>With more than twenty years experience in the field, Jennifer is your best source to understand web design foundations and principles using HTML5 and CSS3.</p>
+<p>Jennifer's interests include books and biking.</p>
+
+<button type="button" href="mailto:jennifer@uxwid.ca" class=" btn btn-secondary btn-sm btn-block">Email Jennifer
+</button>
         </div>
         
-        <div class="col-md-4">
-    <h3 class="">Reza</h3>
-    <img class="img rounded-circle" src="images/reza.png" alt="teacher2" type="img">
-<p>Responsiveness is one of the most important criteria of a website. Reza can teach you the steps to build great responsive websites with ease and clarity.
-  Reza's interests include camping and robotics.</p>
+        <div class="col-sm-4 text-left">
+    <h3 class="pt-4 text-center">Reza</h3>
+    <img class="rounded-circle img-fluid d-none d-md-block" src="images/reza.png" alt="teacher2" type="img">
+<p>Responsiveness is one of the most important criteria of a website. Reza can teach you the steps to build great responsive websites with ease and clarity.</p>
+<p>Reza's interests include camping and robotics.</p>
+ <button type="button" href="mailto:reza@uxwid.ca" class="btn btn-secondary btn-sm btn-block">Email Reza
+ </button>
         </div>
-        <div class="col-md-4">
-    <h3 class="">Alicia</h3>
-    <img class="img rounded-circle" src="images/alicia.png" alt="teacher3" type="img">
-<p>Meet Alicia to discuss prototyping websites following the latest design principles and best practices for meaning and great user emotional experience.
-  Alicia's interests include puzzles and climbing.</p>
+
+        <div class="col-sm-4 text-left">
+    <h3 class="pt-4 text-center">Alicia</h3>
+    <img class="pb-4 rounded-circle img-fluid d-none d-md-block" src="images/alicia.png" alt="teacher3" type="img">
+<p>Meet Alicia to discuss prototyping websites following the latest design principles and best practices for meaning and great user emotional experience.</p>
+<p>Alicia's interests include puzzles and climbing.</p>
+  <button type="button" href="mailto:alicia@uxwid.ca" class="btn btn-secondary btn-sm btn-block">Email Alicia
+  </button>
         </div>
+
       </div>
     </div>
-  </main>
-  
-  <footer>
-    <div>Made with Love in Saint-Lambert</div>
-  </footer>  
 
+  <footer class="page-footer bg-dark text-white mt-5 font-small pt-4">
+    <div class="pb-4 footer-copyright text-center py-3">
+    	<p>Made with Love in Saint-Lambert</p>
+    </div>
+  </footer>  
+</main>
 </body>
 </html>
